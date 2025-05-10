@@ -1,26 +1,58 @@
-*{
-    padding: 0;
-    border: 100;
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
     box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: Roboto;
 }
 
 .header{
+    background-color:#1F2937;
+    color: #F9FAF8;
     display: flex;
-    border: 0;
-    justify-content: space-between;
-    
-    
-}
-.header .logo{
-    font-size: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
 }
 
-.content{
+.right {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
 }
-.middle_content{
+.right a{
+    font-weight: 300;
     display: flex;
-    justify-content: space-between;
+    color: #F9FAF8;
+    text-decoration: none;
+    padding: 15px;
+}
+.container{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 12px;
+    justify-content: center;
+    padding: 50px;
+}
+.container button{
+  text-decoration: none;
+  background-color: #046af9;
+  color: #F9FAF8;
+  padding-inline: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  
+  font-weight: bolder;
+}
 
-}
+
+
+
