@@ -12,6 +12,7 @@ body{
 }
 
 .header{
+    margin: 0;
     background-color:#1F2937;
     color: #F9FAF8;
     display: flex;
@@ -64,6 +65,37 @@ body{
 .container img{
     border-radius: 10px;
 }
+.middle_content{
+   /*  border: 3px solid black; */
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.middle_content .list {
+ /* border: 3px solid black; */
+ list-style-type: none;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ gap: 10px;
+
+}
+.list img{
+    height: 250px;
+    border-radius: 10px;
+    border: 3px solid blue;
+}
+.list p{
+    font-size: 15px;
+}
+.middle_content h2{
+    font-size: 30px;
+    padding: 0px;
+}
+
+
 
 
 
