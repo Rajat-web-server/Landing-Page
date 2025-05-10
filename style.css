@@ -20,6 +20,9 @@ body{
     justify-content: space-evenly;
    
 }
+.left{
+    font-size: 24px;
+}
 
 .right {
     display: flex;
@@ -36,7 +39,7 @@ body{
     background-color: #1F2937;
     color: white;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     flex-direction: row;
     font-size: 12px;
     justify-content: center;
@@ -49,8 +52,17 @@ body{
   padding-inline: 20px;
   padding-bottom: 10px;
   padding-top: 10px;
-  
+ border-radius: 10px;
   font-weight: bolder;
+  font-size: 15px;
+}
+.container p{
+    font-weight: bold;
+    padding-right: 30px;
+    font-size: 18px;
+}
+.container img{
+    border-radius: 10px;
 }
 
 
